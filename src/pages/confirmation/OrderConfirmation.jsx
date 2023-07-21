@@ -50,7 +50,7 @@ export default function OrderConfirmation({ setOrderPhase }) {
         <p style={{ fontSize: "25%" }}>
           as per our terms and conditions, nothing will happen now
         </p>
-        <Button onClick={handleClick}>Create new order</Button>
+        {newOrderButton}
       </div>
     );
   } else {
